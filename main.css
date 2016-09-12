@@ -1,0 +1,357 @@
+/* #FAFAFA */
+
+body {
+    font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  background-image: url(images/back1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+   background-attachment: fixed;
+}
+
+header {
+  padding: 20px 0;
+  background: rgb(54, 25, 25);
+  background: rgba(54, 25, 25, .1);
+}
+
+header .row,
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+/*headers */
+.nav-button {
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+
+}
+.nav-button:hover{
+  text-decoration: none;
+  color: darkgreen;
+}
+.nav-main-button {
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+}
+.nav-main-button:hover{
+  text-decoration: none;
+  color: black;
+}
+
+
+header h1 {
+  font-weight: 700;
+  margin: 0;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header p {
+  padding: 0 20px;
+  margin: 0;
+}
+
+.container-header-bg{
+  background-image: url(images/back.jpg);
+  background-size: cover;
+  min-height: 700px;
+}
+
+/*Jumbotron */
+
+.jumbotron {
+  display: flex;
+  height: 500px;
+  background-color: transparent;
+}
+
+.jumbotron h1 {
+  font-size: 6em;
+  font-weight: 700;
+  text-shadow: 0.25px 0.25px 0.25px #ffffff;
+
+}
+
+.jumbotron h2 {
+  font-size: 5em;
+  font-weight: 700;
+  text-shadow: 0.25px 0.25px 0.25px #ffffff;
+  position: relative;
+  top: 50px;
+}
+
+.jumbotron h3 {
+  font-size: 4em;
+  font-weight: 300;
+  text-shadow: 0.25px 0.25px 0.25px #ffffff;
+  position: relative;
+  top: 50px;
+}
+
+.jumbotron p {
+  background: rgb(255, 255, 255);
+  background: rgba(255, 255, 255, .6);
+  position: relative;
+  top: 100px;
+  padding: 10px 0px 10px 0px;
+  line-height: 200%;
+}
+
+section .row img {
+  margin: 0 0 30px;
+  width: 100%;
+}
+
+.col-md-6 {
+  margin: 0 0 30px;
+}
+
+/*Button*/
+
+.btn.btn-primary {
+  border-radius: 5px;
+  border: 1px;
+  color: black;
+  text-shadow: none;
+  background-color: orange;
+  position: relative;
+  top: 150px;
+  font-size: 2.5em;
+}
+
+.btn.btn-primary:hover {
+  color: #ffffff;
+  background-color: #fbd1d5;
+}
+
+.btn-secondary {
+  background-color: #E8DFE0;
+  color: #ffffff;
+  margin: 0 0 30px;
+}
+
+/*Footer*/
+
+footer {
+  font-size: 12px;
+  padding: 20px 0;
+  background: url(images/desk.jpg) no-repeat center top #000;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
+}
+
+/* -------------------------------------Info--------------------------------*/
+
+/* slogan */
+
+.container-slogan {
+  text-align: center;
+  background-color: white;
+  min-height: 120px;
+  padding: 5px;
+  position: relative;
+}
+
+.container-slogan h4 {
+    font-size: 2em;
+
+}
+
+/* Como Hago */
+
+#container-como-hago {
+      background-color:white;
+      margin-top:100px
+}
+
+#container-como-hago h3 {
+      margin-top: 30px;
+}
+
+#como-hago-title {
+    padding-top: 160px;
+    padding-left: 30px;
+    }
+
+#como-hago-title h1{
+  font-size: 60px;
+  font-family: impact;
+}
+
+#row-como-hago {
+    border:1px dashed black;
+
+}
+
+.como-hago-img {
+    max-height: 80px;
+    max-width: 80px;
+    position: relative;
+    top:15px;
+}
+
+/* Flow */
+
+#flow-container {
+    padding: 50px;
+    width: 100%;
+    height:100%;
+    background: url(images/desk.jpg) no-repeat center top #000;
+    background-size: cover;
+}
+
+#flow-container h1 {
+    color: white;
+    text-shadow: 0.25px 0.25px 0.25px green;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    text-align: center;
+    background: rgb(00, 00, 00);
+    background: rgba(00, 00, 00, .8);
+    padding: 20px;
+}
+
+.flow-img {
+  max-height: 300px;
+  max-width: 300px;
+  position: relative;
+  left: 50px;
+  border: 3px solid black;
+}
+.flow-text {
+    text-align: center;
+    font-size: 20px;
+    background-color: #EFF2FB;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/* Programs */
+#container-programs {
+  margin-top: 80px;
+  background-color:white
+}
+
+#container-programs h3 {
+
+    position: relative;
+    right: 50px;
+    top: 20px;
+}
+
+#each-situation {
+    border: 2px dashed black;
+
+}
+
+.program-img {
+  height: 200px;
+  max-width: 400px;
+  position: relative;
+  left:60px;
+}
+
+/* Contactame Final*/
+
+#Contactame-final {
+  min-height: 150px;
+}
+
+.btn.btn-third {
+  border-radius: 5px;
+  border: 1px;
+  color: black;
+  text-shadow: none;
+  background-color: orange;
+  font-size: 2.5em;
+  position: relative;
+  left: 40%;
+  top: 40px;
+}
+
+.btn.btn-third:hover {
+  color: #ffffff;
+  background-color: #fbd1d5;
+}
+
+
+/* ------------------------------------- Contact ---------------------------- */
+
+#header-special-color {
+  background: rgb(255, 255, 255);
+  background: rgba(255, 255, 255, .8);
+
+}
+
+.container-header-contact {
+    background-image: url(images/contact-background.jpg);
+    background-size: cover;
+    height:300px;
+    }
+
+#contact-text {
+    background-color: white;
+    margin: -150px 0px 0px 25px;
+    padding: 20px;
+    font-size: 19px;
+    text-align: justify;
+  }
+#form-box {
+    padding-top: 20px;
+    padding-left: 30px;
+    background-color: white;
+    margin-left: 30px;
+    margin-top: -40px;
+    border: 2px solid black;
+}
+
+#ask-mail {
+      margin: 0px 00px 0px 20px;
+      font-size: 20px;
+
+}
+
+#submit-button {
+    margin:20px 60px 20px 0px;
+    float: right;
+
+
+}
+
+#contact-box {
+    background-color: lightgrey;
+    border: 3px solid black;
+    text-align: center;
+    position: relative;
+    height: 300px;
+    left: 100px;
+    top: -40px;
+  }
+#contact-box h3 {
+      margin: 50px 0px 40px 0px;
+      font-size: 3em;
+}
+#contact-box h4 {
+      margin-bottom: 30px;
+      font-size: 20px;
+}
